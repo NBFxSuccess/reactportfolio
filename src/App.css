@@ -1,3 +1,81 @@
+body {
+  font-family: monospace;
+  background-color: rgb(8, 6, 22);
+}
+p {
+  color:rgb(53, 37, 88);
+  font-size: 17px;
+  margin-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+h1 {
+  color: rgb(77, 49, 143);
+}
+#pfp {
+  position:relative;
+  align-content: center;
+  margin-top: 60px;
+  padding-right: 10px
+}
+img {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  display: block;
+  flex-wrap: nowrap;
+}
+nav {
+  border-style: solid;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: rgb(6, 4, 15);
+  text-align: center;
+  margin-top: 40px;
+  font-size: 20px;
+}
+a:link {
+  text-decoration: none;
+color: rgb(77, 52, 130);
+}
+hr {
+  background-color: rgb(37, 24, 66);
+  height: 3px;
+  border: none;
+}
+.card {
+margin-top: 80px;
+border-style: solid;
+border-radius: 15px;
+background-color:rgb(7, 5, 19);
+border-color:rgba(37, 24, 66, 0.432);
+position: relative;
+display: flex;
+flex-wrap: flex;
+flex-direction: column;
+
+}
+.cardheader {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+.cardtext {
+  position: relative;
+  margin-left: auto;
+  text-align: center;
+  margin-right: auto;
+}
+
+#tophalf {
+  background-color: rgb(8, 6, 22);
+}
+a:visited {
+  color:rgb(58, 39, 99);
+}
+#contact2 {
+  margin-left:5px;
+}
 .App {
   text-align: center;
 }
