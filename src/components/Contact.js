@@ -1,10 +1,8 @@
 function Contact() {
-    return (<section class="card">
-    <div class="cardheader">
-<h1 id="contact">Contact</h1>
-</div>
+    return (<section class="spacerbottom card">
 <div class="cardtext">
-<p>Please contact me via email @ <a href="mailto:nick@getmighty.net">nick@getmighty.net</a></p>
+    <div class="spacer"/>
+<p id="contactmessage">Please contact me via email @ <a href="mailto:nick@getmighty.net">nick@getmighty.net</a></p>
 </div>
 </section>)
     }
