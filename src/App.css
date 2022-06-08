@@ -1,3 +1,27 @@
+#navcon {
+  display:flex;
+  justify-content:center;
+  justify-content: space-between;
+  align-items:center;
+  margin-right:auto;
+  margin-left:10%;
+  margin-right:10%;
+}
+#navcon2 {
+  display:flex;
+  justify-content:center;
+}
+.footerlogos {
+  margin-top:40px;
+  margin-bottom:40px;
+  height:50px;
+  width:auto;
+  opacity:0.7;
+}
+#footercontainer {
+  display:flex;
+  justify-content:center;
+}
 input[type=button], input[type=submit], input[type=reset] {
   background-color:rgba(24, 18, 65, 0.39);
   border-color:rgba(53, 2, 107, 0.826);
@@ -8,6 +32,10 @@ input[type=button], input[type=submit], input[type=reset] {
   margin: 4px 2px;
   border-radius:15px;
   cursor: pointer;
+}
+.invert{
+  -webkit-filter: invert(100%); 
+  filter: invert(100%);
 }
 input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover {
   background-color:rgba(24, 18, 65, 0.199);
@@ -43,12 +71,6 @@ textarea {
   border-radius:15px;
   width:250px;
   outline:none;
-}
-.testclass {
-  border-style:solid;
-  border-color:white;
-  border-radius:15px;
-  border-width:1px;
 }
 #downloadbutton {
   width:25px;
@@ -122,6 +144,14 @@ position:fixed;
 .spacerbottom {
   margin-bottom:20px;
 }
+.spacertop {
+  margin-top:20px;
+}
+.halfspacertop {
+  margin-top:10px;
+}
+
+
 #contactmessage{
   margin-bottom:10px;
 }
@@ -138,14 +168,38 @@ position:fixed;
 .space {
   width:10px
 }
+.space2 {
+  width:30px
+}
+.port {
+  margin-left:10px;
+}
+#resumebutton{
+  margin-left:10px;
+  padding:10px;
+  border-radius:30px;
+  border-style:dashed;
+  border-color:rgba(255, 255, 255, 0.226);
+  border-width:1px;
+
+}
 #header {
   opacity:0.7;
 }
 #nameplate {
   color:white;
+  opacity:0.7;
 }
 #profilepicture {
-  width:200px;
+  border-width:1px;
+  border-color:rgb(0, 0, 0);
+  border-radius:200px;
+  padding:10px;
+  min-width:200px;
+  height:200px;
+  opacity:0.6;
+  margin-top:2%;
+  width:100px;
 }
 #show,
 .platformbuttons {
@@ -190,11 +244,9 @@ img {
 }
 nav {
   border-style: solid;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  margin: 0 -5px;
   background-color: rgba(7, 5, 15, 0.879);
   text-align: center;
-  margin-top: 40px;
   font-size: 20px;
 }
 a:link {
@@ -269,14 +321,7 @@ a:visited {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
 
 
 /*
@@ -3861,4 +3906,7 @@ select {
   .\32xl\:grid-cols-12 {
     grid-template-columns: repeat(12, minmax(0, 1fr));
   }
+  
+  
+  
 }
