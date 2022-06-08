@@ -1,3 +1,13 @@
+input[type="text"], textarea[name=Message] {
+
+  background-color : #818181; 
+  border-radius:15px;
+  cursor:context-menu;
+
+}
+input[type=text]::placeholder, textarea[name=Message]::placeholder {
+  color:rgba(0, 0, 0, 0.614);
+}
 #navcon {
   display:flex;
   justify-content:center;
@@ -53,24 +63,9 @@ textarea {
   width:250px;
   resize:none;
 }
-.inputfieldc:placeholder {
-  color:#222;
-  transition: color 0.3 ease;
-}
-.inputfieldc:focus::placeholder {
-  color:transparent;
-}
+
 .inputfieldc {
-  border:none;
-  appearance:none;
-  -webkit-appearance: none;
-  -ms-appearance:none;
-  -moz-appearance:none;
-  background:#2f2f2f;
-  padding:12px;
-  border-radius:15px;
   width:250px;
-  outline:none;
 }
 #downloadbutton {
   width:25px;
@@ -141,6 +136,9 @@ position:fixed;
 .spacer {
   height:20px;
 }
+.spacer2 {
+  height:40px;
+}
 .spacerbottom {
   margin-bottom:20px;
 }
@@ -173,6 +171,9 @@ position:fixed;
 }
 .port {
   margin-left:10px;
+}
+.port2 {
+  margin-right:10px;
 }
 #resumebutton{
   margin-left:10px;
