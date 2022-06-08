@@ -123,6 +123,7 @@ position:fixed;
   border-color:rgba(39, 6, 123, 0.473);
   border-radius:15px;
   padding:30px;
+  width:auto;
 }
 .roundme {
   border-radius:15px;
@@ -259,6 +260,10 @@ hr {
   height: 3px;
   border: none;
 }
+.preview {
+  max-height:100px;
+  width:auto;
+}
 .card {
 margin-top: 80px;
 border-style: solid;
@@ -270,7 +275,31 @@ display: flex;
 flex-wrap: flex;
 flex-direction: column;
 
+}.card {
+margin-top: 80px;
+border-style: solid;
+border-radius: 15px;
+background-color:rgb(7, 5, 19);
+border-color:rgba(37, 24, 66, 0.432);
+position: relative;
+display: flex;
+flex-wrap: flex;
+flex-direction: column;
+
 }
+.card2 {
+  margin-top: 40px;
+  padding-top: 30px;
+  border-style: solid;
+  border-radius: 15px;
+  background-color:rgb(7, 5, 19);
+  border-color:rgba(37, 24, 66, 0.432);
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  
+  }
 .cardheader {
   position: relative;
   margin-left: auto;
