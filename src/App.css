@@ -1,3 +1,96 @@
+input[type=button], input[type=submit], input[type=reset] {
+  background-color:rgba(24, 18, 65, 0.39);
+  border-color:rgba(53, 2, 107, 0.826);
+  border-width:1px;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  border-radius:15px;
+  cursor: pointer;
+}
+input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover {
+  background-color:rgba(24, 18, 65, 0.199);
+  border-color:rgba(53, 2, 107, 0.826);
+  border-width:1px;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  border-radius:15px;
+  cursor: pointer;
+}
+
+textarea {
+  width:250px;
+  resize:none;
+}
+.inputfieldc:placeholder {
+  color:#222;
+  transition: color 0.3 ease;
+}
+.inputfieldc:focus::placeholder {
+  color:transparent;
+}
+.inputfieldc {
+  border:none;
+  appearance:none;
+  -webkit-appearance: none;
+  -ms-appearance:none;
+  -moz-appearance:none;
+  background:#2f2f2f;
+  padding:12px;
+  border-radius:15px;
+  width:250px;
+  outline:none;
+}
+.testclass {
+  border-style:solid;
+  border-color:white;
+  border-radius:15px;
+  border-width:1px;
+}
+#downloadbutton {
+  width:25px;
+  height:auto;
+}
+html {
+  min-height:100%;
+        animation: transitionIn 3s;
+  background-size:cover;
+  background: transparent; 
+}
+
+html:after {
+  content:"";
+position: fixed;
+left: 0;
+top: 0;
+right: 0;
+bottom: 0;
+z-index: -1;
+
+background-size: cover;
+}
+.background:after {
+position:fixed;
+  background-size: 100%;
+  background-image: linear-gradient(0deg, rgba(0, 0, 2, 0.989), rgba(129, 24, 194, 0.027));
+  background-repeat: repeat;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+.breaker {
+  border-style:solid;
+  border-color:rgba(32, 5, 69, 0.231);
+  border-width:1px;
+}
+#prolist {
+  color:rgb(75, 45, 138);
+}
 .opaqueme {
   opacity:0.65;
 }
@@ -99,7 +192,7 @@ nav {
   border-style: solid;
   padding-top: 15px;
   padding-bottom: 15px;
-  background-color: rgb(6, 4, 15);
+  background-color: rgba(7, 5, 15, 0.879);
   text-align: center;
   margin-top: 40px;
   font-size: 20px;

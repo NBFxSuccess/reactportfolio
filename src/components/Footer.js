@@ -1,7 +1,8 @@
 function Footer() {
     return (
 <div class="cardtext">
-<p>This is a footer</p>
+    <div class="halfspacer"/>
+<p class="spacerbottom">This is a footer</p>
 </div>)
     }
     export default Footer;

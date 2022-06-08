@@ -6,7 +6,7 @@ function Aboutme() {
 <div class="spacer"/>
 </div>
 <div class="cardtext">
-<p class="spacerbottom">Front-end and back-end web developer. Recently graduated from (MERN) Full Stack Web Development Bootcamp at Northwestern University.</p>
+<p class="spacerbottom">I develop websites, and mobile UI / UX friendly systems. <br/>Front-end and back-end web developer. <br/> <div class="spacer"/>Recent graduate of (MERN) full stack web development bootcamp at Northwestern University.</p>
 </div>
 </section>)
     }
