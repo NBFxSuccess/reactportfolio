@@ -19,7 +19,7 @@ input[type=text]::placeholder, textarea[name=Message]::placeholder {
 }
 #navcon2 {
   display:flex;
-  justify-content:center;
+  justify-content:space-between;
 }
 .footerlogos {
   margin-top:40px;
